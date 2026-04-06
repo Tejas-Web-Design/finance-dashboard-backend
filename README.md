@@ -132,7 +132,7 @@ npm run dev
 Swagger UI available at:
 
 
-http://localhost:5000/api-docs
+https://finance-dashboard-backend-2-ukpv.onrender.com/api-docs/
 
 
 ---
