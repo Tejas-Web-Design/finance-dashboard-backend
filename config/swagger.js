@@ -68,7 +68,9 @@ This project is built as part of a backend engineering assessment to demonstrate
 
     servers: [
       {
-        url: "http://localhost:5000",
+        url: process.env.NODE_ENV === "production"
+      ? "https://finance-dashboard-backend-2-ukpv.onrender.com"
+      : "http://localhost:5000",
       },
     ],
 
